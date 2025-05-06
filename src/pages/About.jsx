@@ -15,15 +15,15 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Gorakhnath Samal
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          BTech undergraduate at IIIT Bhubaneswar, India, passionate about
+          technology and building innovative applications.
         </p>
       </div>
 
@@ -47,11 +47,11 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Education & Interests</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            I'm currently pursuing my BTech degree and am interested in system design, AI-ML, and web development.
+            I haven't done any internships yet, but I'm eager to gain practical experience in these areas.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const About = () => {
                     <img
                       src={experience.icon}
                       alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
+                      className='w-full h-full object-cover rounded-full'
                     />
                   </div>
                 }

@@ -2,6 +2,7 @@ import css from './css.svg'
 import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
+import home from './home.svg'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
@@ -32,6 +33,7 @@ export {
     express,
     git,
     github,
+    home,
     html,
     javascript,
     mongodb,
